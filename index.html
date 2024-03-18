@@ -3,39 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <table border="1" style="width: 100%;">
-            <thead>
-                <tr>
-                    <th colspan="6" style="background-color: tomato;">Welcome to our website</th>
-                    
-                  </tr>
+    <form action="" enctype="multipart/form-data">
+        <div>
+            <label for="">Name</label>
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <br>
+        <div>
+            <label for="">Email</label>
+            <input type="email" placeholder="Enter email">
+        </div>
+        <br>
+        <div>
+            <label for="">Password</label>
+            <input type="password" placeholder="Enter password">
 
-            </thead>
-     
- 
-            <tbody>
-                <tr>
-                    <th rowspan="2" style="width: 100px;height: 700px;">left</td>
-                    <th style="height: 800px;">middle</td>
-                    <th rowspan="2" style="width: 100px;height: 800px;">right</td>
-                </tr>
-          
-                <tr>
-                    <th colspan="6" style="background-color: tomato;">All right reserved Al Mamun Molla</th>
-                    
-                </tr>
-           
-            </tbody>
-  
-          </table>
-
-
-
-    </div>
+        </div>
+        <div>
+            <label for="">Gender</label>
+            <br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">other</label>
+        </div>
+        <br>
+        <br>
+        <div>
+            
+            <input type="checkbox" id="terms">
+            <label for="terms">I accept age terms and conditions</label>
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <select name="" id="country">
+                <option value="USA">USA</option>
+                <option value="BD">BD</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </div>
+        <div>
+            <label for="image">Image Upload</label>
+            <input type="file">
+        </div>
+        <br>
+        <input type="button" name="" id="" value="submit">
+        <input type="button" name="" id="" value="registration">
+    </form>
 </body>
 </html>
